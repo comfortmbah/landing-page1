@@ -1,1 +1,1 @@
-# landing-page1
+Odin Project: Building a Landing page with the knowledge of HTML and CSS only
