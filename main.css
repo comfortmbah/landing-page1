@@ -46,3 +46,152 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+    background-color: #FFFF;
+   
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 15px 200px 100px 200px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9F8FA;
+}
+img {
+    width: 200px;
+    height: auto;
+}
+
+.header-subsection1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.first-nav ul {
+    display: flex;
+    gap: 15px;   
+}
+
+.first-nav li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.main-header {
+    font-size: 38px;
+    font-weight: bold;
+    color: #F9F8FA;
+    margin-bottom: .2em;
+}
+
+.main-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: .3em;
+}
+
+button {
+    background-color: #00008B;
+    color: #E5E7EB;
+    border-radius: 5px;
+    padding: 6px 10px;
+    border-color: #F9F8FA;
+}
+
+/* section one */
+.section--1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 200px;
+    margin-top: 2em;
+}
+
+.h2-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0 6em 0;
+}
+
+.card {
+    text-align: center;
+    max-width: 250px;
+}
+
+img {
+    border-radius: 8px;
+}
+
+/* section two */
+
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 15em;
+}
+
+em,
+.cite {
+    font-weight: 100;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+/* section three */
+
+.section--3 {
+    background-color: #F9F8FA;
+    padding: 5em 10em;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00008B;
+    padding: 2em 1em;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.left {
+    margin-right: 4em;
+    color: #F9F8FA;
+}
+
+.strong-text {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.left p {
+    opacity: .7;
+}
+
+.sec-btn {
+    padding: 5px 20px;
+    font-size: 14px;
+}
