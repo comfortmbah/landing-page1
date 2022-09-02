@@ -1,1 +1,5 @@
-Odin Project: Building a Landing page with the knowledge of HTML and CSS only
+Odin Project: Building a Landing page 
+
+Skills Required: 
+1 HTML 
+2 CSS: Flex-box
